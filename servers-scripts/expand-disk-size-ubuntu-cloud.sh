@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Run Command
+# wget -O - https://raw.githubusercontent.com/pirataze/private-servers-stuff/main/servers-scripts/expand-disk-size-ubuntu-cloud.sh | bash
+
 sudo sgdisk /dev/sda -e
 
 sudo reboot
